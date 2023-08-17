@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: #0d1635;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #011e29;
+  color: white;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.headerTitle span {
+  font-size: 15px;
+  background-color: rgb(23, 131, 225);
+  border-radius: 30px;
+  padding: 5px;
+}
+.headerTitle {
+  font-size: 30px;
+}
+
+.nav-div nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(10, 20, 50, 0.2);
+  padding: 10px;
+  font-size: 18px;
+}
+.nav-div nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.textCenter {
+  text-align: center;
+}
+.font-white {
+  color: white;
+}
+.margin-30px {
+  margin: 30px;
+}
+.mainSection {
+  /* min-height: 100vh; */
+}
+
+.imageContent {
+  text-align: center;
+  margin-top: -35%;
+  color: white;
+  font-size: 20px;
+}
+.imageContent p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+.imageContent p a {
+  width: 150px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 0px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  font-style: none;
+  padding: 10px 20px;
+}
+
+.cricketSection {
+  /* min-height: 100vh; */
+}
+
+.cricketStoreCard {
+  display: flex;
+  background-color: #320073;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cricketSection {
+  margin-top: 25%;
+}
+
+.storecard1 {
+  color: #ff00a5;
+  padding: 30px;
+  font-family: Hind Siliguri, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.orderNowBTN {
+  padding: 10px;
+  border-radius: 10px;
+  /* width: 100px; */
+  background-color: #5876a3;
+  color: #ff00a5;
+}
+
+.teamAndPlayerRanking {
+  min-height: 35vh;
+}
+
+.viewallRank {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3589ff;
+  color: white;
+  font-size: 20px;
+}
+
+.teamRank1,
+.teamRank2 {
+  display: flex;
+  align-items: center;
+}
+
+.teamRank1 p {
+  margin-left: 15px;
+  font-size: 22px;
+  color: white;
+}
+
+.temRanking1card {
+  background: blue;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.teamRank2 p {
+  margin-left: 15px;
+  font-size: 22px;
+  color: white;
+}
+.teamRank2 p:nth-child(1) {
+  border-bottom: 5px solid;
+}
+
+.cardLists {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; */
+}
+.cardListDetails {
+  width: 350px;
+  height: 350px;
+  /* border: 1px solid blue; */
+  border-radius: 20px;
+  background-color: #19223f;
+}
+
+.cardList {
+  padding: 10px;
+  /* height: 100px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #19223f;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.indiaImg {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.player1 img {
+  width: 150px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.cardDetails-playerList {
+  padding: 0px 30px;
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  margin: 5px;
+}
+
+.cardListsDetails {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 40px;
+}
+
+.pop-competitions {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 10px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+  background-color: #283c7d;
+}
+
+.pop-competitions:hover {
+  box-shadow: rgba(255, 255, 255, 1) 0px 3px 8px;
+}
+
+.pop-competition-2 {
+  /* display: flex; */
+}
+
+.latestNewsDiv {
+  width: 100%;
+  min-height: 300px;
+}
+
+.latestNewsLists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.latestNewsList {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  color: white;
+  background-color: rgb(59, 46, 117);
+}
+
+.padding-5 {
+  padding: 10px;
+}
+.hrHeading {
+  width: 90%;
+  border: 3px solid rgb(233, 52, 52);
+  margin-bottom: 10px;
+}
+.borderBox {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: gray;
+}
